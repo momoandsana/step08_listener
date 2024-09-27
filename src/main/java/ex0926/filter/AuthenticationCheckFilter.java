@@ -17,9 +17,9 @@ public class AuthenticationCheckFilter implements Filter {
 
         HttpServletRequest req = (HttpServletRequest) request;//ServletRequest 가 부모이기 때문에
         HttpSession session = req.getSession();
-        System.out.println(session.getAttribute("sessionId"));
-        System.out.println(session.getAttribute("sessionName"));
-        System.out.println(session.getAttribute("creationTime"));
+//        System.out.println(session.getAttribute("sessionId"));
+//        System.out.println(session.getAttribute("sessionName"));
+//        System.out.println(session.getAttribute("creationTime"));
 
         if(session.getAttribute("sessionId")==null)
         {
