@@ -4,4 +4,13 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
+  
+  <listener>
+    <listener-class>ex0927.listener.AppListener</listener-class>
+  </listener>
+
+  <session-config>
+    <session-timeout>1</session-timeout>
+
+  </session-config>
 </web-app>
